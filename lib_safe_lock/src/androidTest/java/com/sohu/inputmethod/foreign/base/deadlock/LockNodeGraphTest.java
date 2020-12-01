@@ -1,7 +1,8 @@
 package com.sohu.inputmethod.foreign.base.deadlock;
 
-import android.support.test.runner.AndroidJUnit4;
-import android.support.v4.util.ArrayMap;
+
+import androidx.collection.ArrayMap;
+import androidx.test.runner.AndroidJUnit4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
