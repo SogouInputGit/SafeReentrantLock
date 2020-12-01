@@ -26,6 +26,7 @@ public class SafeReentrantLockTest {
         lock3.lock();
         lock4.lock();
 
+        
         Thread another = new Thread(new Runnable() {
             @Override
             public void run() {
